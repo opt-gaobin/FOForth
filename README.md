@@ -3,7 +3,8 @@ A Matlab solver for optimization problems with orthogonality constraints.
 ## Problems
 This solver is to solve the following problem,
 > min h(X)+trace(G'X)
-  s.t.  X'X=I
+  s.t.  X'X=I,
+  where $X$ is 
 
 # References
 + Bin Gao, Xin Liu, Xiaojun Chen and Ya-xiang Yuan, [A New First-order Algorithmic Framework for Optimization Problems with Orthogonality Constraints](https://doi.org/10.1137/16M1098759), SIAM Journal on Optimization, 28-1(2018), 302–332. 
