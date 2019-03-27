@@ -5,7 +5,7 @@ This solver is to solve the following problem,
 > min h(X)+trace(G'X),
   s.t.  X'X=I
   
-  where X is n-by-p matrix, and h(X) is orthogonal invariant (h(XQ)=h(X) for any orthogonal matrix Q) and satisfies \nabla h(X)=H(X)X.
+  where X is a n-by-p matrix, and h(X) is orthogonal invariant (h(XQ)=h(X) for any orthogonal matrix Q) and satisfies \nabla h(X)=H(X)X.
 ### Examples
 + min trace(X'AX)+trace(G'X), s.t.  X'X=I.
 
