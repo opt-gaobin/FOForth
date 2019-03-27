@@ -1,15 +1,18 @@
 # FOForth
-A **F**irst-**O**rder **F**ramework for optimization problems with **orth**ogonality constraints.
+A Matlab solver for optimization problems with orthogonality constraints.
+## Problems
+This solver is to solve the following problem,
+> min h(X)+trace(G'X)
+  s.t.  X'X=I
 
 # References
-+ Bin Gao, Xin Liu, Xiaojun Chen and Ya-xiang Yuan, [\textit{A New First-order Algorithmic Framework for Optimization Problems with Orthogonality Constraints}](https://doi.org/10.1137/16M1098759), SIAM Journal on Optimization, 28-1(2018), 302–332. 
++ Bin Gao, Xin Liu, Xiaojun Chen and Ya-xiang Yuan, [A New First-order Algorithmic Framework for Optimization Problems with Orthogonality Constraints](https://doi.org/10.1137/16M1098759), SIAM Journal on Optimization, 28-1(2018), 302–332. 
 
 # Authors
-+ [Bin Gao](https://www.gaobin.cc/) at AMSS, CAS, China
-+ [Xin Liu](http://lsec.cc.ac.cn/~liuxin/index.html) at AMSS, CAS, China
-
++ [Bin Gao](https://www.gaobin.cc/) (AMSS, CAS, China)
++ [Xin Liu](http://lsec.cc.ac.cn/~liuxin/index.html) (AMSS, CAS, China)
 # Copyright
-Copyright (C) 2017, Bin Gao, Xin Liu
+Copyright (C) 2016, Bin Gao, Xin Liu
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
