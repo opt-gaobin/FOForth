@@ -122,7 +122,7 @@ maxit = opts.maxit;
 info = opts.info;
 
 global Ip
-Ip = speye(p);
+Ip = eye(p);
 
 % successive infomation (successive T iterations)
 T = 5;  Terr = zeros(T,2);
